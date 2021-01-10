@@ -1,0 +1,35 @@
+.cart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+
+    background: #FE5F1E;
+    border-radius: 30px;
+    border: none;
+    padding: 12px 23px;
+    cursor: pointer;
+
+    color: #fff;
+
+    .price, .count-products {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+    }
+
+    .count-products {
+        margin-left: 8px;
+    }
+
+    .vertical-separator {
+        margin: 0 13px;
+        height: 100%;
+        width: 1px;
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+}
